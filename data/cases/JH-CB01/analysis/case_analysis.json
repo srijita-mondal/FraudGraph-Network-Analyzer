@@ -1,0 +1,72 @@
+{
+  "analysis": {
+    "analysis_version": "1.0",
+    "generated_at": "2026-09-28T09:35:48.368378+00:00",
+    "case_id": "JH-CB01",
+    "case_title": "Cyber fraud investigation",
+    "status": "completed"
+  },
+  "subject_profiles": [
+    {
+      "subject_id": "PERSON-9a01f1d3901f",
+      "subject_type": "PERSON",
+      "name": "",
+      "role": "",
+      "role_hypotheses": [],
+      "identifiers": {
+        "person_ids": [
+          "PERSON-9a01f1d3901f"
+        ],
+        "account_ids": [],
+        "account_numbers": [],
+        "upi_ids": [],
+        "upi_vpas": [],
+        "phone_ids": [],
+        "phone_numbers": [],
+        "sim_ids": [],
+        "imsis": [],
+        "imeis": [],
+        "observed_imsis": [],
+        "observed_imeis": [],
+        "device_ids": [],
+        "ip_ids": [],
+        "ip_addresses": [],
+        "location_ids": [],
+        "emails": []
+      },
+      "identity_evidence": [
+        "EVD-415850baff9a"
+      ],
+      "evidence_ids": [
+        "EVD-415850baff9a"
+      ],
+      "statistics": {
+        "transactions_count": 0,
+        "calls_count": 0,
+        "sms_count": 0,
+        "web_activity_count": 0,
+        "sim_events_count": 0,
+        "devices_count": 0,
+        "accounts_count": 0,
+        "phones_count": 0,
+        "unique_counterparties": 0,
+        "money_in_inr": 0.0,
+        "money_out_inr": 0.0,
+        "call_duration_seconds": 0
+      },
+      "transactions": [],
+      "calls": [],
+      "sms": [],
+      "web_activity": [],
+      "sim_events": [],
+      "timeline": [],
+      "relationships": []
+    }
+  ],
+  "entity_relationships": [],
+  "findings": [],
+  "data_quality": {
+    "warnings": [],
+    "unresolved_entities": []
+  }
+}

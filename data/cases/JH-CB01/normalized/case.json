@@ -1,0 +1,80 @@
+{
+  "case": {
+    "case_id": "JH-CB01",
+    "case_title": "Cyber fraud investigation",
+    "created_at": "2026-09-28T15:01:55.988444",
+    "schema_version": "1.1",
+    "normalization_status": "completed",
+    "fir_number": "",
+    "complaint_date": "2026-12-12",
+    "police_station": "",
+    "incident_type": "fraud",
+    "reported_loss_inr": 250000.0,
+    "description": ""
+  },
+  "persons": [
+    {
+      "source_evidence_ids": [
+        "EVD-415850baff9a"
+      ],
+      "person_id": "PERSON-9a01f1d3901f"
+    }
+  ],
+  "phones": [],
+  "sims": [],
+  "sim_events": [],
+  "devices": [],
+  "accounts": [],
+  "banking": [],
+  "upi": [],
+  "transactions": [],
+  "calls": [],
+  "sms": [],
+  "ips": [],
+  "locations": [],
+  "web_activity": [],
+  "evidence": [
+    {
+      "evidence_id": "EVD-415850baff9a",
+      "source_file": "JH-CYB-001_analysis.json",
+      "source_type": "persons",
+      "source_record": "ROW-2",
+      "source_location": "JH-CYB-001_analysis.json:row:2",
+      "extracted_at": "2026-09-28T15:01:56.040486",
+      "extraction_method": "automatic_normalization",
+      "confidence": 0.17
+    }
+  ],
+  "relationships": [],
+  "normalization": {
+    "files_processed": 1,
+    "records_processed": 1,
+    "records_normalized": 1,
+    "records_rejected": 0,
+    "duplicate_records": 0,
+    "unmapped_fields": [
+      {
+        "file": "JH-CYB-001_analysis.json",
+        "field": "analysis"
+      },
+      {
+        "file": "JH-CYB-001_analysis.json",
+        "field": "subject_profiles"
+      },
+      {
+        "file": "JH-CYB-001_analysis.json",
+        "field": "entity_relationships"
+      },
+      {
+        "file": "JH-CYB-001_analysis.json",
+        "field": "findings"
+      },
+      {
+        "file": "JH-CYB-001_analysis.json",
+        "field": "data_quality"
+      }
+    ],
+    "warnings": [],
+    "errors": []
+  }
+}

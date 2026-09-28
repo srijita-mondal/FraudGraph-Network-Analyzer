@@ -1,0 +1,140 @@
+{
+  "analysis": {
+    "case_id": "JAMTARA-MINI-001",
+    "case_title": "Mini Jamtara Cyber Fraud Demo",
+    "fraud_type": "SIM Swap + UPI Mule Layering",
+    "reported_loss": 95000
+  },
+
+  "subject_profiles": [
+    {
+      "entity_id": "V001",
+      "name": "Victim One",
+      "role": "VICTIM",
+      "phone": "+91XXXXXX001",
+      "account": "ACC1001",
+      "city": "Ahmedabad"
+    },
+    {
+      "entity_id": "M001",
+      "name": "Mule One",
+      "role": "MULE",
+      "phone": "+91XXXXXX002",
+      "account": "ACC2001",
+      "city": "Ahmedabad"
+    },
+    {
+      "entity_id": "M002",
+      "name": "Mule Two",
+      "role": "MULE",
+      "phone": "+91XXXXXX003",
+      "account": "ACC2002",
+      "city": "Ahmedabad"
+    },
+    {
+      "entity_id": "M003",
+      "name": "Mule Three",
+      "role": "MULE",
+      "phone": "+91XXXXXX004",
+      "account": "ACC2003",
+      "city": "Ahmedabad"
+    },
+    {
+      "entity_id": "S001",
+      "name": "Suspect Alpha",
+      "role": "SUSPECT",
+      "phone": "+91XXXXXX005",
+      "account": "ACC3001",
+      "city": "Ahmedabad"
+    },
+    {
+      "entity_id": "N001",
+      "name": "Citizen",
+      "role": "UNKNOWN",
+      "phone": "+91XXXXXX006",
+      "account": "ACC4001",
+      "city": "Ahmedabad"
+    }
+  ],
+
+  "entity_relationships": [
+    {
+      "source": "V001",
+      "target": "M001",
+      "relationship": "UPI ₹95,000",
+      "timestamp": "2026-09-08 20:40",
+      "evidence": "TXN001"
+    },
+    {
+      "source": "M001",
+      "target": "M002",
+      "relationship": "UPI ₹30,000",
+      "timestamp": "2026-09-08 20:50",
+      "evidence": "TXN002"
+    },
+    {
+      "source": "M001",
+      "target": "M003",
+      "relationship": "UPI ₹30,000",
+      "timestamp": "2026-09-08 20:53",
+      "evidence": "TXN003"
+    },
+    {
+      "source": "M002",
+      "target": "S001",
+      "relationship": "UPI ₹29,000",
+      "timestamp": "2026-09-08 21:10",
+      "evidence": "TXN004"
+    },
+    {
+      "source": "M003",
+      "target": "S001",
+      "relationship": "UPI ₹29,000",
+      "timestamp": "2026-09-08 21:14",
+      "evidence": "TXN005"
+    },
+    {
+      "source": "S001",
+      "target": "M001",
+      "relationship": "Shared IMEI",
+      "imei": "352000020312447",
+      "ip": "103.21.5.9",
+      "evidence": "DEV001"
+    },
+    {
+      "source": "V001",
+      "target": "V001",
+      "relationship": "SIM Swap",
+      "timestamp": "2026-09-08 20:30",
+      "evidence": "SIM001"
+    },
+    {
+      "source": "N001",
+      "target": "M003",
+      "relationship": "Small UPI ₹1,200",
+      "timestamp": "2026-09-15 18:30",
+      "evidence": "TXN006"
+    }
+  ],
+
+  "findings": [
+    {
+      "title": "Fan-Out Pattern",
+      "description": "M001 distributed funds to multiple mule accounts within minutes."
+    },
+    {
+      "title": "Funnel Pattern",
+      "description": "M002 and M003 transferred funds to S001."
+    },
+    {
+      "title": "Shared Device",
+      "description": "S001 and M001 share the same IMEI."
+    }
+  ],
+
+  "data_quality": {
+    "confidence": "High",
+    "missing_records": 1,
+    "notes": "Synthetic demo dataset for hackathon."
+  }
+}

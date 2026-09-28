@@ -1,0 +1,40 @@
+person_id,name,role,phone,account_number,ifsc,email,city,state,account_open_date
+P001,Aarav Shah,VICTIM,+919730000001,410200000001,HDFC0IN0001,aarav.shah1@example.test,Ahmedabad,Gujarat,2025-11-14
+P002,Vivaan Joshi,VICTIM,+919730000002,410200000002,ICIC0IN0002,vivaan.joshi2@example.test,Gandhinagar,Gujarat,2025-11-07
+P003,Aditya Vora,VICTIM,+919730000003,410200000003,AXIS0IN0003,aditya.vora3@example.test,Surat,Gujarat,2025-10-31
+P004,Arjun Kapoor,VICTIM,+919730000004,410200000004,SBIN0IN0004,arjun.kapoor4@example.test,Vadodara,Gujarat,2025-10-24
+P005,Kabir Iyer,VICTIM,+919730000005,410200000005,HDFC0IN0001,kabir.iyer5@example.test,Rajkot,Gujarat,2025-10-17
+P006,Rohan Agarwal,VICTIM,+919730000006,410200000006,ICIC0IN0002,rohan.agarwal6@example.test,Jaipur,Rajasthan,2025-10-10
+P007,Yash Mehta,VICTIM,+919730000007,410200000007,AXIS0IN0003,yash.mehta7@example.test,Indore,Madhya Pradesh,2025-10-03
+P008,Kunal Desai,VICTIM,+919730000008,410200000008,SBIN0IN0004,kunal.desai8@example.test,Mumbai,Maharashtra,2025-09-26
+P009,Rakesh Malhotra,SUSPECT,+919730000009,410200000009,HDFC0IN0001,nikhil.mistry9@example.test,Ahmedabad,Gujarat,2025-09-19
+P010,Sameer Khan,SUSPECT,+919730000010,410200000010,ICIC0IN0002,manav.soni10@example.test,Gandhinagar,Gujarat,2025-09-12
+P011,Imran Qureshi,SUSPECT,+919730000011,410200000011,AXIS0IN0003,ishaan.nair11@example.test,Surat,Gujarat,2025-09-05
+P012,Vikas Soni,SUSPECT,+919730000012,410200000012,SBIN0IN0004,dhruv.patel12@example.test,Vadodara,Gujarat,2025-08-29
+P013,Amit Parmar,SUSPECT,+919730000013,410200000013,HDFC0IN0001,ananya.trivedi13@example.test,Rajkot,Gujarat,2025-08-22
+P014,Faizan Shaikh,SUSPECT,+919730000014,410200000014,ICIC0IN0002,diya.rathod14@example.test,Jaipur,Rajasthan,2025-08-15
+P015,Mohan Yadav,SUSPECT,+919730000015,410200000015,AXIS0IN0003,ira.bansal15@example.test,Indore,Madhya Pradesh,2025-08-08
+P016,Neel Shah,MULE,+919730000016,410200000016,SBIN0IN0004,meera.menon16@example.test,Mumbai,Maharashtra,2025-08-01
+P017,Karan Mehta,MULE,+919730000017,410200000017,HDFC0IN0001,aisha.shah17@example.test,Ahmedabad,Gujarat,2025-07-25
+P018,Ritu Desai,MULE,+919730000018,410200000018,ICIC0IN0002,kiara.joshi18@example.test,Gandhinagar,Gujarat,2025-07-18
+P019,Anjali Vora,MULE,+919730000019,410200000019,AXIS0IN0003,sana.vora19@example.test,Surat,Gujarat,2025-07-11
+P020,Harish Patel,MULE,+919730000020,410200000020,SBIN0IN0004,riya.kapoor20@example.test,Vadodara,Gujarat,2025-07-04
+P021,Neha Iyer,MULE,+919730000021,410200000021,HDFC0IN0001,neha.iyer21@example.test,Rajkot,Gujarat,2025-06-27
+P022,Pooja Agarwal,MULE,+919730000022,410200000022,ICIC0IN0002,pooja.agarwal22@example.test,Jaipur,Rajasthan,2025-06-20
+P023,Simran Mehta,MULE,+919730000023,410200000023,AXIS0IN0003,simran.mehta23@example.test,Indore,Madhya Pradesh,2025-06-13
+P024,Kavya Desai,BENEFICIARY,+919730000024,410200000024,SBIN0IN0004,kavya.desai24@example.test,Mumbai,Maharashtra,2025-06-06
+P025,Maya Mistry,BENEFICIARY,+919730000025,410200000025,HDFC0IN0001,maya.mistry25@example.test,Ahmedabad,Gujarat,2025-05-30
+P026,Tara Soni,BENEFICIARY,+919730000026,410200000026,ICIC0IN0002,tara.soni26@example.test,Gandhinagar,Gujarat,2025-05-23
+P027,Rahul Nair,BENEFICIARY,+919730000027,410200000027,AXIS0IN0003,rahul.nair27@example.test,Surat,Gujarat,2025-05-16
+P028,Siddharth Patel,BENEFICIARY,+919730000028,410200000028,SBIN0IN0004,siddharth.patel28@example.test,Vadodara,Gujarat,2025-05-09
+P029,Varun Trivedi,ASSOCIATE,+919730000029,410200000029,HDFC0IN0001,varun.trivedi29@example.test,Rajkot,Gujarat,2025-05-02
+P030,Pranav Rathod,ASSOCIATE,+919730000030,410200000030,ICIC0IN0002,pranav.rathod30@example.test,Jaipur,Rajasthan,2025-04-25
+P031,Dev Bansal,ASSOCIATE,+919730000031,410200000031,AXIS0IN0003,dev.bansal31@example.test,Indore,Madhya Pradesh,2025-04-18
+P032,Aniket Menon,ASSOCIATE,+919730000032,410200000032,SBIN0IN0004,aniket.menon32@example.test,Mumbai,Maharashtra,2025-04-11
+P033,Harsh Shah,ASSOCIATE,+919730000033,410200000033,HDFC0IN0001,harsh.shah33@example.test,Ahmedabad,Gujarat,2025-04-04
+P034,Mihir Joshi,ASSOCIATE,+919730000034,410200000034,ICIC0IN0002,mihir.joshi34@example.test,Gandhinagar,Gujarat,2025-03-28
+P035,Naman Vora,BUSINESS,+919730000035,410200000035,AXIS0IN0003,naman.vora35@example.test,Surat,Gujarat,2025-03-21
+P036,Reyansh Kapoor,BUSINESS,+919730000036,410200000036,SBIN0IN0004,reyansh.kapoor36@example.test,Vadodara,Gujarat,2025-03-14
+P009,R. Malhotra,SUSPECT,+919730000009,410200000009,HDFC0IN0001,r.malhotra@alias.example.test,Ahmedabad,Gujarat,2025-09-19
+P010,Sameer K.,SUSPECT,+919730000010,410200000010,ICIC0IN0002,sameer.k@alias.example.test,Gandhinagar,Gujarat,2025-09-12
+P011,Imran Q.,SUSPECT,+919730000011,410200000011,AXIS0IN0003,iq@alias.example.test,Surat,Gujarat,2025-09-05

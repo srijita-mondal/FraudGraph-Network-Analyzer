@@ -1,0 +1,2 @@
+case_id,fir_number,complaint_date,police_station,incident_type,reported_loss_inr,description
+CASE-ADV-2026-001,FIR-2026-ADV-091,2026-09-09,Cyber Crime Investigation Unit,SIM_SWAP_UPI_LAYERING,462000.00,"Synthetic advanced stress-test case with multi-hop UPI layering, shared infrastructure, SIM swaps, fan-out/fan-in, cyclic transfers, call clusters, SMS alerts, web activity and mixed-status transactions."
